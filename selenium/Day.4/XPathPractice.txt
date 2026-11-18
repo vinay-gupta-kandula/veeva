@@ -1,0 +1,17 @@
+<!-- General XPath syntax using an attribute -->
+//tagname[@attribute='attribute value']
+
+<!-- Locate input element using class attribute -->
+//input[@class='University']
+
+<!-- Locate the second input element having id='mani' -->
+(//input[@id='mani'])[2]
+
+<!-- Locate h1 element using its text content (dot operator) -->
+//h1[.='Veeva']
+
+<!-- Locate the first h1 element using the text() function -->
+(//h1[text()='Veeva'])[1]
+
+<!-- Locate anchor tag using its visible text -->
+//a[text()='maya']
